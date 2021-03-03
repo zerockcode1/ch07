@@ -73,4 +73,13 @@ public class MovieRepositoryTests {
             System.out.println(Arrays.toString(objects));
         }
     }
+
+    @Test
+    public void testList2() {
+
+        Object[] result = movieRepository.getListPage2();
+
+        Arrays.stream(result).forEach(arr -> System.out.println(arr));
+
+    }
 }

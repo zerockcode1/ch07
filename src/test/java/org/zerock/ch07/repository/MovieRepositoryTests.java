@@ -79,6 +79,8 @@ public class MovieRepositoryTests {
 
         Object[] result = movieRepository.getListPage2();
 
+        //System.out.println(Arrays.toString(result));
+
         Arrays.stream(result).forEach(arr -> System.out.println(arr));
 
     }
